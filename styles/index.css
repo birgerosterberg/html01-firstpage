@@ -27,6 +27,9 @@ h2{
 /*Designing my DAY* notice outlet to stand out and separate days more fluently! */
 h2 {
     background-color: rgb(128, 171, 220);
+    display: block;
+    margin-left: 780px;
+    margin-right: 780px;
 }
 
 /*co-joining my header text and navigation bar!*/
@@ -40,6 +43,9 @@ h2 {
     border-width: 10px;
     /*I decided to remove this: border-radius: 10px 10px 10px 10px;*/
     font-weight: bold;
+    display: block;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 /*Pimping my paragraphs with Diary text!*/
@@ -49,14 +55,16 @@ h2 {
     color: whitesmoke;
     background-color: rgb(128, 171, 220);
     text-align: left;
-    border-width: 20px;
-    border-style: solid;
-    border-color: rgb(128, 171, 220);
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     /* I decided to remove this: border-radius: 20px 20px 20px 20px; */
     box-shadow: 5px 5px 5px rgb(49, 180, 186);
     content: "";
     clear: right;
-    display: table;
+    display: block;
 }
 
 /*Smoothing images*/
@@ -66,6 +74,6 @@ img{
     float: right;
     content: "";
     clear: both;
-    display: table;
+    display: inline-block;
    /* float: right; yes please how do i manage this, i keep it on so you see my design idea... but i will study more later later! day6 still broken! */
 }
